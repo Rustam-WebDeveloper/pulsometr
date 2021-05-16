@@ -1,0 +1,35 @@
+@font-face {
+	font-family: 'MuseoSansCyrl';	
+	src: local('MuseoSansCyrl'),
+	url('src/fonts/MuseoSansCyrl_3.otf') format('otf');
+	font-style: normal;
+	font-weight: 900;
+}
+@font-face {
+	font-family: 'MuseoSansCyrl';	
+	src: local('MuseoSansCyrl'),
+	url('src/fonts/MuseoSansCyrl_2.otf') format('otf');
+	font-style: normal;
+	font-weight: 700;
+}
+@font-face {
+	font-family: 'MuseoSansCyrl';	
+	src: local('MuseoSansCyrl'),
+	url('src/fonts/MuseoSansCyrl_1.otf') format('otf');
+	font-style: normal;
+	font-weight: 500;
+}
+@font-face {
+	font-family: 'MuseoSansCyrl';	
+	src: local('MuseoSansCyrl'),
+	url('src/fonts/MuseoSansCyrl_0.otf') format('otf');
+	font-style: normal;
+	font-weight: 300;
+}
+@font-face {
+	font-family: 'MuseoSansCyrl';	
+	src: local('MuseoSansCyrl'),
+	url('src/fonts/MuseoSansCyrl.otf') format('otf');
+	font-style: normal;
+	font-weight: 100;
+}
