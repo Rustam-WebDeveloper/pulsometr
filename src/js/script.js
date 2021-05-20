@@ -14,4 +14,16 @@ $(document).ready(function(){
             }
         ]
       });
+      
+      function toggleSlide(item){
+        $('item').each(function(i){
+            $(this).on('click', function(e){
+                e.preventDefault();
+                $('.catalog-item__content').eq(i).toggleClasse('catalog-item__content_active');
+                $('.catalog-itm__list').eq(i).toggleClasse('catalog-item__list_active')
+            })
+        });
+      };
+      toggleSlide('.cqtalog-item__link');
+      toggleSlide('.cqtalog-item__back');
   });
