@@ -71,6 +71,7 @@
             font-weight: 300;
             text-align: center;
             color: #0d0d0d;
+            padding-right: 10px;
         }
         &__link{
             display: block;
@@ -126,7 +127,7 @@
             width: 50%;
             margin-left: 20px;
             transform: translateX(0%);
-            padding-right: 20px;
+            padding-right: -10px;
             transition: 0.5s all;
             padding-left: 19px;
             margin-bottom: 0;
