@@ -1,0 +1,16 @@
+.footer{
+    display: flex;
+    position: relative;
+    &__wrapper{
+        position: absolute;
+        display: block;
+        &-baner{
+            display: block;
+            position: absolute;
+            width: 460px;
+            height: 270px;        
+            background-color: #c70101;
+        }
+    
+    }
+}
