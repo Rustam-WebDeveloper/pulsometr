@@ -62,7 +62,7 @@ $(document).ready(function(){
                     },
                     phone:"required",
                     email:{
-                        require: true,
+                        required: true,
                         email: true
                     }
                 },
@@ -73,14 +73,14 @@ $(document).ready(function(){
                     },
                     phone: "Пожалуйста, введите свой телефон",
                     email:{
-                        require: "Пожалуйста, введите совю почту",
+                        required: "Пожалуйста, введите совю почту",
                         email: "Неправильно введен адрес почты"
                     }
                 }
                    
             });
         };
-        
+
         validateForm('#consultation-form');
         validateForm('#consultation form');
         validateForm('#order form');
